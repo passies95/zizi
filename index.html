@@ -1,35 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Form Selector – Project Components</title>
+  <meta charset="UTF-8" />
+  <title>Assessment Form Selector</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       padding: 30px;
-      background-color: #f9f9f9;
+      background-color: #f4f4f4;
+      line-height: 1.6;
     }
-    h1, h2 {
-      color: #333;
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
     .logo {
-      height: 10px;
+      height: 60px;
       margin-right: 20px;
     }
+    h1 {
+      text-align: center;
+      margin: 20px 0 10px;
+    }
     .component {
-      margin-bottom: 30px;
+      background: #fff;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
     }
     .form-link {
       display: inline-block;
-      margin: 5px 0;
-      padding: 10px 15px;
-      background-color: #7A2982;
-      color: white;
+      margin: 6px 0;
+      padding: 10px 14px;
+      background-color: #007b5e;
+      color: #fff;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 4px;
     }
     .form-link:hover {
-      background-color: #45a049;
+      background-color: #005f47;
     }
   </style>
 </head>
@@ -37,25 +51,39 @@
 
   <!-- 🔰 Project logos -->
   <div class="header">
-    <img src="Zizi-Logo.png" alt="Project Logo 1" class="logo" />
-    <img src="moe.png" alt="Partner Logo" class="logo" />
-  </div>
-  
-  <h1>Select a KoBo Form by Project Component</h1>
-  <div class="component">
-    <h2>👩‍🏫 Component 2</h2>
-    <a href="https://ee.kobotoolbox.org/x/LIqLW7Hv" class="form-link">Key Informant Interview Guide for program lead (PRIEDE, TUSOME,TAYAJIRI, MoE Officials etc.</a><br>
-    <a href="https://ee.kobotoolbox.org/x/zNIHHGUG" class="form-link">Key Informant Interview Guide for program Curriculum Support Officers and Math Teachers</a>
+    <img src="LOGO_URL_1" alt="Project Logo 1" class="logo" />
+    <img src="LOGO_URL_2" alt="Partner Logo" class="logo" />
   </div>
 
+  <h1>📋 School-Based Assessment Forms</h1>
+
+  <!-- 📦 Component 1 -->
   <div class="component">
-    <h2>👨‍👩‍👧‍👦 Component 5</h2>
-    <a href="https://ee.kobotoolbox.org/x/glRdcYhK" class="form-link">FGD for Math Teachers</a><br>
-    <a href="https://ee.kobotoolbox.org/x/hhyIWFcc" class="form-link">FGD for parents (PP1-Grade 3 )</a><br>
-    <a href="https://ee.kobotoolbox.org/x/2A2lxFbI" class="form-link">KII with HOIs</a><br>
-    <a href="https://ee.kobotoolbox.org/x/zsuwyxgT" class="form-link">FGD for learners in Grade 4-5</a><br>
-    <a href="https://ee.kobotoolbox.org/x/0iZfhsPT " class="form-link">Pupil Cognitive Interview Tool</a><br>
-    <a href="https://ee.kobotoolbox.org/x/CvfGtKYm" class="form-link">Teacher Knowledge tool</a><br>
+    <h2>📚 Component 1: School Assessments</h2>
+    <a href="https://ee.kobotoolbox.org/x/FORM_ID_1" class="form-link">Classroom Observation</a><br>
+    <a href="https://ee.kobotoolbox.org/x/FORM_ID_2" class="form-link">Infrastructure Checklist</a>
+  </div>
+
+  <!-- 👩‍🏫 Component 2 -->
+  <div class="component">
+    <h2>👩‍💼 Component 2: Program Leads</h2>
+    <a href="https://ee.kobotoolbox.org/x/FORM_ID_3" class="form-link">Headteacher Interview</a><br>
+    <a href="https://ee.kobotoolbox.org/x/FORM_ID_4" class="form-link">Ward Officer Survey</a>
+  </div>
+
+  <!-- 👨‍👩‍👧‍👦 Component 5 -->
+  <div class="component">
+    <h2>👨‍👩‍👧‍👦 Component 5: Learners, Teachers & Parents</h2>
+    <a href="https://ee.kobotoolbox.org/x/FORM_ID_5" class="form-link">Learner Assessment – Grade 3</a><br>
+    <a href="https://ee.kobotoolbox.org/x/FORM_ID_6" class="form-link">Parent Interview</a><br>
+    <a href="https://ee.kobotoolbox.org/x/FORM_ID_7" class="form-link">Teacher Reflection</a>
+  </div>
+
+  <!-- 🏛️ Component 4 -->
+  <div class="component">
+    <h2>🏛️ Component 4: Policy & Curriculum Audit</h2>
+    <a href="https://ee.kobotoolbox.org/x/FORM_ID_8" class="form-link">Policy Review Checklist</a><br>
+    <a href="https://ee.kobotoolbox.org/x/FORM_ID_9" class="form-link">Stakeholder Interview</a>
   </div>
 
 </body>
